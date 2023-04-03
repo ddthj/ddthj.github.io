@@ -1,30 +1,40 @@
-head,body {
-	text-align: center;
-	max-width: 650px;
-	margin: 40px auto;
-	padding: 0 10px;
-	font: 'Segue UI';
-	color: #444;
+.header {
+    background: #eeeeee;
+    color: #1a002d;
+    text-align: left;
+    font-size: 30px;
+    padding: 10px 20px;
 }
 
-h1,h3 {
-	line-height:1.2
+body{
+    background-color: #1a002d;
+    margin: 0px;
+    font-family: 'Roboto';
 }
+
 
 button {
-	background-color: #4CAF50;
+    margin: 100px auto;
+    max-width: 650px;
+	background-color: #1a002d;
 	border: none;
 	outline: none;
-	color: white;
+	color: #1a002d;
 	font-size: 20px;
-	font: 'Segue UI';
 	display: inline-block;
-	border-radius: 12px;
+	border-radius: 3px;
 	transition-duration: 0.3s;
-	padding: 14px 40px;
+	padding: 10px 40px;
 }
 button:hover{
-	background-color: #6fd673;
+	background-color: #25003f;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
 }
 
 
