@@ -9,6 +9,15 @@
 			<a href="index.html" style="color: inherit; text-decoration: none;"> <b>DDTHJ /</b> HOME </a>
 			<span id="dice" style="float: right;">&#9860</span>
 		</div>
+		<div class="preview" onclick="window.location.href = '1.html';">
+			<img src="./res/1_0.jpg" align="left">
+			<div>
+				<b>$12 PC Case</b>
+				1/30/2023
+
+				Ever needed a PC case for cheap? I did! Most low-end cases are currently about $50, but for a recent build I really didn't want to...
+			</div>
+		</div>
 		<div class="preview" onclick="window.location.href = '0.html';">
 			<img src="./res/0_0.jpg" align="left">
 			<div>
@@ -24,5 +33,5 @@
 <script>
 	var dice = document.getElementById("dice");
 	dice.onclick = jump;
-	function jump(){window.location.href = Math.floor(Math.random() * 1) + ".html";}
+	function jump(){window.location.href = Math.floor(Math.random() * 2) + ".html";}
 </script>

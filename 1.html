@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+/*
+How to write article:
+1. Save html to next-number .html
+2. Update said number in the header link
+3. Change title, date, and text
+4. Make preview entry on homepage
+5. Update the dice
+*/
+<html>
+	<head>
+		<link href="style.css" rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	</head>
+	<body>
+		<div class="header">
+			<a href="index.html" style="color: inherit; text-decoration: none;"> <b>DDTHJ /</b> 1 </a>
+		</div>
+		<div class="post">
+			<img src="./res/1_0.jpg">
+			<h1 class="title">$12 PC Case</h1>
+			<h2 class="date">1/30/2023</h2>
+			Ever needed a PC case for cheap? I did! Most low-end cases are currently about $50, but for a recent build I really didn't want to spend that kind of money. I've seen milk-crate computers, cardboard cases, and all sorts of wacky solutions to this problem. A friend even suggested I repurpose my toaster oven for the cause. I decided to compromise, and 3D print a case.
+			<div class="mini">
+				<img src="./res/1_1.jpg">
+				Can you even fit a PC in a toaster oven? Looks like it.
+			</div>
+			There's an argument here that your time is worth more than what it'll take to design the case. Of course I looked for pre-made designs, but none really fit my build, or my printer's buildplate. Since the ATX standard is a standard, it only took the better part of a day to get the case designed. I used onshape, so if you want you <a target="_blank" href="https://cad.onshape.com/documents/b4fa6467c163681605f13e89/w/9543d93df14358375eaeb403/e/8fe9d1b3c1533208f7a3a027?renderMode=0&uiState=642c852ddbac5f39dc8ce31f">can get the CAD yourself</a>. Despite my efforts to review everything before printing, there were still a few mistakes that had to be cleaned up with a soldering iron. I don't remember if I fixed these mistakes after the fact, so maybe don't use my CAD.
+			<div class="mini">
+				<img src="./res/1_4.jpg">
+				<img src="./res/1_3.jpg">
+				I played with the components to find a layout I was happy with before moving to CAD.
+			</div>
+			The case was made in 2 parts to fit the build plate, and includes an air duct to pipe fresh air over the CPU cooler. In addition to mounting the motherboard, it also has standoffs for mounting a SSD to the side. A lot of care went in to ensuring all the parts had cooling, as the case is pretty compact. It's possible to buy a cable to move the GPU off the motherboard, which I considered for a while. I think if I had that cable, I could have designed a case that only required one print to complete. This version has lots of space in the back for mounting storage at least, and was easier to design.
+			<div class="mini">
+				<img src="./res/1_5.jpg">
+				<img src="./res/1_6.jpg">
+				15 hours?!
+			</div>
+			The case turned out pretty good! I mentioned some mistakes were made, but I was able to sand/iron them out. I certainly didn't want to wait another 15 hours. There are a few lessons learned though:
+
+			1. You cannot avoid warping on these long flat plates. Next time, design some ribs in to prevent warping.
+			2. It probably would have helped to design each interface separately, and print test versions, to ensure all the dimensions were accurate.
+			3. An overlapping joint should overlap on all sides, as otherwise the non-overlapped side will probably warp.
+
+			This project is done. The computer will serve as my openFoam number-cruncher. I may upgrade the cpu/ram at some point, hopefully without a redesign!
+
+			-dd
+		</div>
+		<div class="fade"></div>
+	</body>
+</html>
