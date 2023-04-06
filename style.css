@@ -40,11 +40,15 @@
 }
 
 .mini {
-    max-width: 50%;
+    max-width: 75%;
     color: #6b5879;
     text-align: center;
     font-style: italic;
     margin: auto;
+}
+
+.mini img{
+    max-width: 50%
 }
 
 .fade{
