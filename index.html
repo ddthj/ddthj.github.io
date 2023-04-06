@@ -9,6 +9,15 @@
 			<a href="index.html" style="color: inherit; text-decoration: none;"> <b>DDTHJ /</b> HOME </a>
 			<span id="dice" style="float: right;">&#9860</span>
 		</div>
+		<div class="preview" onclick="window.location.href = '3.html';">
+			<img src="./res/3_0.jpg" align="left">
+			<div>
+				<b>ADS-B Case</b>
+				1/23/2023
+
+				So This is a pretty niche issue, but it makes for a cool project. When flying an airplane you generally want to avoid running...
+			</div>
+		</div>
 		<div class="preview" onclick="window.location.href = '2.html';">
 			<img src="./res/2_0.jpg" align="left">
 			<div>
@@ -42,5 +51,5 @@
 <script>
 	var dice = document.getElementById("dice");
 	dice.onclick = jump;
-	function jump(){window.location.href = Math.floor(Math.random() * 2) + ".html";}
+	function jump(){window.location.href = Math.floor(Math.random() * 4) + ".html";}
 </script>
