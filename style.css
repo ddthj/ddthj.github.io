@@ -85,7 +85,7 @@ body{
     object-fit: cover;
     display: block;
     max-width: 300px;
-    maxheight: 300px;
+    max-height: 300px;
     margin-right: 20px;
     border-radius: 6px;
 }
